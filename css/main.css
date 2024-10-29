@@ -285,6 +285,27 @@ html {
     .text-md-start{display: block;}
     .print-btns{display: block !important;}
 }
+@media only screen and (max-width: 480px){
+.px-3 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.mb-1 {
+   
+    text-align: left;
+    font-size: 18px;
+}
+.accordion-body {
+    padding: 1rem 0;
+}
+.card-body {
+    padding: 20px;
+}
+
+
+}
+
+
 
 footer a:not(.nav-link) {
   color: inherit;
